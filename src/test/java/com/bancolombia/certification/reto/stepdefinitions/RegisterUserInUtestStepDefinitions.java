@@ -1,6 +1,7 @@
 package com.bancolombia.certification.reto.stepdefinitions;
 
 import com.bancolombia.certification.reto.iserinterfaces.InitialPage;
+import com.bancolombia.certification.reto.questions.TheWelcomeMessage;
 import com.bancolombia.certification.reto.tasks.FillForm;
 import com.bancolombia.certification.reto.tasks.GoToRegisterModule;
 import com.bancolombia.certification.reto.tasks.OpenTheBrowser;
@@ -8,7 +9,10 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import org.hamcrest.Matchers;
+
 import static net.serenitybdd.screenplay.actors.OnStage.*;
 import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
 
@@ -34,9 +38,9 @@ private InitialPage page;
     theActorInTheSpotlight().attemptsTo(FillForm.whithDates());
     }
 
-    @Then("^shoul see the welcome message$")
-    public void shoulSeeTheWelcomeMessage() {
-
+    @Then("^shoul see the welcome message (.*)$")
+    public void shoulSeeTheWelcomeMessage(String message) {
+    theActorInTheSpotlight().should(GivenWhenThen.seeThat(TheWelcomeMessage.onThePage(), Matchers.is(message)));
     }
 
 }

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Register user in utest page" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-30T15:38:02" hostname="CPX-AFSIWBXL3DU" time="41.794">
+<testsuite name="Register user in utest page" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-30T17:07:15" hostname="CPX-AFSIWBXL3DU" time="46.694">
   <properties/>
-  <testcase name="Successfull register" classname="Register user in utest page" time="41.794"/>
+  <testcase name="Successfull register" classname="Register user in utest page" time="46.694"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Jan 30, 2021 10:38:04 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Jan 30, 2021 12:07:16 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --lang=en,--disable-popup-b..., goog:chromeOptions: {args: [--lang=en, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins, --disable-extensions], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 22928
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 13428
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1612021088.859][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-Jan 30, 2021 10:38:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1612026442.375][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
+Jan 30, 2021 12:07:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
